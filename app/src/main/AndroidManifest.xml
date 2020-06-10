@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tiku1demo2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name=".AppClient"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".activity.AYdActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ADzbcActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.DzbcddActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.Dzbc2Activity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.Dzbc3Activity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.Dzbc4Activity"
+
+            android:screenOrientation="landscape" />
+        <activity android:name=".activity.Dzbc5Activity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activity.AYhdlActivity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".activity.Z_YZSZActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.Z_HJZBActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".activity.Z_CXGLActivity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".activity.Z_SSXSActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.S_CLWZActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.S_IMAGEActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.S_VIDEOActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".activity.BHldActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activity.BZhglActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activity.BWdzhActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activity.BaseActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activity.BZdgl2Activity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activity.BZdglActivity"
+            android:screenOrientation="landscape"/>
+        <service android:name=".service.YzService"
+            android:exported="true"
+            android:enabled="true"/>
+        <activity android:name=".activity.AClwzActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activity.CxjgActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activity.JkActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activity.JkzpActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activity.S_LKCXActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activity.S_SJFXActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activity.BtqxxActivity"
+            android:screenOrientation="landscape"/>
+    </application>
+
+</manifest>

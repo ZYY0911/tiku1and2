@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:background="#969393"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TextView
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    android:textColor="#000000"
+    android:textSize="60dp"
+    android:text="车辆账户充值"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+</LinearLayout>
+    <View
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:textColor="#000000"
+           android:textSize="40dp"
+            android:text="车牌号："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/chepaihao"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000000"
+            android:textSize="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="6dp"
+            android:textColor="#000000"
+            android:textSize="40dp"
+            android:text="充值金额："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginTop="5dp"
+            android:textSize="30dp"
+            android:hint="1-999"
+            android:background="@drawable/b_bg"
+            style="?android:attr/textViewStyle"
+            android:id="@+id/jine"
+            android:layout_width="200dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textSize="40dp"
+            android:layout_marginLeft="80dp"
+            android:text="充值"
+            android:id="@+id/bt_chongzhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:textSize="40dp"
+            android:id="@+id/bt_quxiao"
+            android:layout_marginLeft="80dp"
+            android:text="取消"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/head_dz2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/dz2_dt"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ditu"
+            />
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_weight="1.4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/dz2_lx"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="光谷金融街——南湖商厦"
+                android:textSize="30dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:id="@+id/dz2_pj"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"
+                android:text="票价：￥8.0"
+                android:textSize="30dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:id="@+id/dz2_lc"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"
+                android:text="里程：20.0km"
+                android:textSize="30dp"
+                android:textColor="#000"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                >
+                <Button
+                    android:id="@+id/dz2_ok"
+                    android:textSize="28dp"
+                    android:textColor="#fff"
+                    android:text="下一步"
+                    android:background="#05b0ce"
+                    android:layout_width="190dp"
+                    android:layout_height="70dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/head_wz"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:padding="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+            <ImageView
+                android:id="@+id/jk1_img1"
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/weizhang01"
+                />
+            <ImageView
+                android:id="@+id/jk1_img2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/weizhang02"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+            <ImageView
+                android:id="@+id/jk1_img3"
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/weizhang03"
+                />
+            <ImageView
+                android:id="@+id/jk1_img4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/weizhang04"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/jk1_fh"
+            android:layout_marginBottom="20dp"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:text="返回"
+            android:textSize="25dp"
+            />
+    </LinearLayout>
+</LinearLayout>

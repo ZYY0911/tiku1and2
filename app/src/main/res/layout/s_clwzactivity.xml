@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/head"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="150dp"
+            android:background="@drawable/biankuang"
+            android:layout_width="170dp"
+            android:id="@+id/video"
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:text="违章视频"
+            android:textSize="30dp"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="320dp"
+            android:background="@drawable/biankuang1"
+            android:layout_width="170dp"
+            android:gravity="center"
+            android:id="@+id/image"
+            android:layout_height="50dp"
+            android:text="违章图片"
+            android:textSize="30dp"
+            android:textColor="#000"
+            />
+        <View
+            android:layout_width="1000dp"
+            android:layout_height="2dp"
+            android:background="#000"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="100dp"
+            />
+        <LinearLayout
+            android:layout_marginTop="110dp"
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

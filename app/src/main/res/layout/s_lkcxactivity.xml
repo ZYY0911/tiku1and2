@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/head1" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <TextView
+            android:id="@+id/hcksl"
+            android:layout_width="20dp"
+            android:layout_height="650dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="35dp"
+            android:background="#fff" />
+
+        <TextView
+            android:id="@+id/xyl"
+            android:layout_width="20dp"
+            android:layout_height="280dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="55dp"
+            android:background="#fff" />
+
+        <TextView
+            android:id="@+id/xfl"
+            android:layout_width="20dp"
+            android:layout_height="270dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="405dp"
+            android:background="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="202dp"
+            android:layout_marginTop="350dp"
+            android:ems="1"
+            android:lineSpacingExtra="5dp"
+            android:text="幸福路"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/lxl"
+            android:layout_width="20dp"
+            android:layout_height="280dp"
+            android:layout_marginLeft="360dp"
+            android:layout_marginTop="55dp"
+            android:background="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="362dp"
+            android:layout_marginTop="90dp"
+            android:ems="1"
+            android:lineSpacingExtra="5dp"
+            android:text="联想路"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/yyl"
+            android:layout_width="20dp"
+            android:layout_height="270dp"
+            android:layout_marginLeft="360dp"
+            android:layout_marginTop="405dp"
+            android:background="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="362dp"
+            android:layout_marginTop="350dp"
+            android:ems="1"
+            android:lineSpacingExtra="5dp"
+            android:text="医院路"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/hcksl1"
+            android:layout_width="608dp"
+            android:layout_height="20dp"
+            android:layout_alignBaseline="@+id/hcgs"
+            android:layout_alignBottom="@+id/hcgs"
+            android:layout_toEndOf="@+id/textView"
+            android:layout_toRightOf="@+id/textView"
+            android:background="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="202dp"
+            android:layout_marginTop="35dp"
+            android:lineSpacingExtra="5dp"
+            android:text="环   城   快  速   路"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="318dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="365dp"
+            android:background="#fff" />
+
+        <TextView
+            android:id="@+id/hcksl2"
+            android:layout_width="628dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="655dp"
+            android:background="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="655dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginLeft="150dp"
+            android:text="环   城   快  速   路"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tcc"
+            android:layout_width="100dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="480dp"
+            android:layout_marginTop="305dp"
+            android:background="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="505dp"
+            android:layout_marginTop="355dp"
+            android:lineSpacingExtra="5dp"
+            android:text="停车场"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="202dp"
+            android:layout_marginTop="90dp"
+            android:ems="1"
+            android:lineSpacingExtra="5dp"
+            android:text="学院路"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="70dp"
+            android:ems="1"
+            android:lineSpacingExtra="5dp"
+            android:text="环    城    快    速    路"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="400dp"
+            android:ems="1"
+            android:lineSpacingExtra="5dp"
+            android:text="环    城    快    速    路"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/hcgs"
+            android:layout_width="20dp"
+            android:layout_height="620dp"
+            android:layout_marginLeft="670dp"
+            android:layout_marginTop="35dp"
+            android:background="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="670dp"
+            android:layout_marginTop="70dp"
+            android:ems="1"
+            android:lineSpacingExtra="5dp"
+            android:text="环    城    高    路"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="670dp"
+            android:layout_marginTop="300dp"
+            android:ems="1"
+            android:lineSpacingExtra="5dp"
+            android:text="环    城    高    路"
+            android:textColor="#000" />
+
+
+        <TextView
+            android:id="@+id/riqi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="805dp"
+            android:layout_marginTop="100dp"
+            android:text="2017-7-7"
+            android:textColor="#000"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/xingqi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="830dp"
+            android:layout_marginTop="160dp"
+            android:text="星期一"
+            android:textColor="#000"
+            android:textSize="35dp" />
+
+        <ImageView
+            android:id="@+id/shuaxin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1180dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/finsh" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1045dp"
+            android:layout_marginTop="100dp"
+            android:text="温度:"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/wendu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1120dp"
+            android:layout_marginTop="100dp"
+            android:text="10℃"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1000dp"
+            android:layout_marginTop="150dp"
+            android:text="相对湿度:"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/shidu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1120dp"
+            android:layout_marginTop="150dp"
+            android:text="10%"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1030dp"
+            android:layout_marginTop="200dp"
+            android:text="PM2.5:"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/pm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1120dp"
+            android:layout_marginTop="200dp"
+            android:text="1ug/m3"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="755dp"
+            android:layout_marginTop="300dp"
+            android:text="道路拥挤程度示意："
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="785dp"
+            android:layout_marginTop="350dp"
+            android:text="严重拥堵："
+            android:textColor="#000"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="875dp"
+            android:layout_marginTop="350dp"
+            android:background="#b01e23" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="785dp"
+            android:layout_marginTop="380dp"
+            android:text="中度拥堵："
+            android:textColor="#000"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignTop="@+id/textView2"
+            android:background="#e33532" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="785dp"
+            android:layout_marginTop="410dp"
+            android:text="一般拥堵："
+            android:textColor="#000"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="875dp"
+            android:layout_marginTop="410dp"
+            android:background="#f49b25" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="815dp"
+            android:layout_marginTop="440dp"
+            android:text="缓行："
+            android:textColor="#000"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="875dp"
+            android:layout_marginTop="440dp"
+            android:background="#ece93a" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="815dp"
+            android:layout_marginTop="470dp"
+            android:text="畅通："
+            android:textColor="#000"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="875dp"
+            android:layout_marginTop="470dp"
+            android:background="#6ab82e" />
+
+        <ImageView
+            android:id="@+id/dh1"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="1050dp"
+            android:layout_marginTop="350dp" />
+
+        <ImageView
+            android:id="@+id/dh2"
+            android:layout_width="90dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="1150dp"
+            android:layout_marginTop="360dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1155dp"
+            android:layout_marginTop="530dp"
+            android:text="500米"
+            android:textColor="#000"
+            android:textSize="17dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1130dp"
+            android:layout_marginTop="550dp"
+            android:src="@drawable/scale"
+
+            />
+    </RelativeLayout>
+
+</LinearLayout>
